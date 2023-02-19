@@ -1,0 +1,13 @@
+body , .container-fluid , .row , .col-sm-2 , .col-sm-10 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+a {
+    text-decoration: none !important;
+    text-transform: none !important;
+}
+
+.logo {
+    margin-top: 8% !important;
+}

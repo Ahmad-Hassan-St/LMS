@@ -1,0 +1,125 @@
+* {
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+#background {
+    height: 100vh;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)),
+        url(../Images/Background.jpg);
+    background-size: cover;
+    opacity: 85%;
+}
+
+h1 {
+    color: white;
+    font-size: 50px !important;
+    text-align: center;
+}
+
+#nav {
+    padding-top: 10px !important;
+    padding-left: 130px !important;
+    padding-right: 130px !important;
+}
+
+li.nav-item {
+    padding: 10px 25px !important;
+    font-size: 18px;
+}
+
+li.nav-item a {
+    color: white !important;
+}
+
+.btn-success {
+    border-radius: 25px !important;
+    padding: 12px 25px !important;
+    font-size: 12px !important;
+    text-transform: uppercase;
+    font-weight: bold !important;
+}
+
+a.navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+li.bi-dash {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 15px;
+}
+
+.main {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 62px;
+}
+
+.main p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    color: white !important;
+    border: 1px solid #198754;
+    background: #198754;
+    transition: 1s;
+}
+
+body {
+    margin: 0 !important;
+    scroll-behavior: smooth;
+}
+
+#Contact {
+    background-size: 100% 100%;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url(../Images/Background1.jpg);
+}
+
+#Team {
+    height: 100vh;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.footer {
+    padding: 0 !important;
+}
+
+.copyright {
+    background-color: #2a2929;
+}
+
+.icons {
+    background-color: #2a2929 !important;
+}
