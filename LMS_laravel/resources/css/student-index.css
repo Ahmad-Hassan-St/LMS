@@ -1,0 +1,48 @@
+body {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(Images/StudentWallpaper.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 80%;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+div.container-fluid {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+p.newstudent {
+    color: white !important;
+}
+
+a {
+    text-decoration: none !important;
+    text-transform: none;
+    color: yellow !important;
+}
+a:hover {
+    text-decoration: none !important;
+    text-transform: none;
+    color: black !important;
+}
+
+p.oldstudent {
+    text-decoration: underline;
+    text-underline-position: under;
+}
